@@ -1,0 +1,23 @@
+[build-system]
+requires = ['setuptools']
+build-backend = 'setuptools.build_meta'
+
+[project]
+name = 'compgraph'
+version = '0.0.1'
+authors = [
+  { name='Ekaterina Dmitrieva', email='author@example.com'},
+]
+description = 'Library for graph computation'
+readme = 'LIB_README.md'
+requires-python = '>=3.10'
+keywords = ['graph', 'map', 'reduce']
+license = {text = 'BSD 3-Clause License'}
+classifiers = [
+    'Programming Language :: Python :: 3',
+    'Programming Language :: Python :: 3.10'
+]
+dependencies = [
+    'click'
+]
+
